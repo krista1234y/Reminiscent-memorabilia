@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reminiscent shop of Memorabilia</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3.5em;
+            font-family: 'Great Vibes', cursive;
+        }
+
+        nav {
+            text-align: center;
+            padding: 15px 0;
+            background-color: #444;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .product-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 300px;
+            margin: 15px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease;
+        }
+
+        .product-item:hover {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .product-item img {
+            width: 100%;
+            border-bottom: 1px solid #ddd;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .product-item h2 {
+            margin: 15px 0;
+            font-size: 1.5em;
+        }
+
+        .product-item p {
+            padding: 0 15px;
+            font-size: 1em;
+            color: #666;
+        }
+
+        .product-item .price {
+            color: #e67e22;
+            font-size: 1.3em;
+            margin: 10px 0;
+        }
+
+        .product-item button {
+            background-color: #e67e22;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-bottom: 15px;
+            transition: background-color 0.3s ease;
+        }
+
+        .product-item button:hover {
+            background-color: #d35400;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Reminiscent shop of Memorabilia</h1>
+        <p>Do you long for the good ol' days? We will take you there.</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#shop">Shop</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <div class="product">
+            <div class="product-item">
+                <img src="https://via.placeholder.com/300x300" alt="Clock 1">
+                <h2>Unique and Authentic Glassware Collections</h2>
+                <p>Find the perfect set to complete your masterpiece.</p>
+                <button>Unveil</button>
+            </div>
+
+            <div class="product-item">
+                <img src="https://via.placeholder.com/300x300" alt="Clock 2">
+                <h2>Authentic stamps from around the world</h2>
+                <p>Find the completing piece for your collections</p>
+                <button>Unveil</button>
+            </div>
+
+            <div class="product-item">
+                <img src="https://via.placeholder.com/300x300" alt="Clock 3">
+                <h2>Baseball Cards</h2>
+                <p>Turn your collection into a home run</p>
+                <div class="price">$20</div>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Reminiscent Memorabilia. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
